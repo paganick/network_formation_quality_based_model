@@ -1,0 +1,13 @@
+This folder contains the code used to simulate the network formation process through the quality based model, as described in the paper titled "A meritocratic network formation model for the rise of social media influencers".
+
+In the folder, there are 11 Jupyter Notebooks, which can be run after installing, e.g., the Anaconda package (https://docs.anaconda.com/anaconda/install/index.html).
+The notebooks will run Python code. We recommend using Python version 3.7. For the main_plot_graph script, a couple of extra Python packages might have to be installed (see the comments in the file).
+
+Each notebook focus on a specific analysis, e.g., the theoretical analysis of the network in-degree distribution, as reported in the manuscript. By doing so, we make it easy to reproduce the results reported in the paper.
+The results are fully reproducible, as the random seed is initialized before every computation. Changing any parameter will of course lead to different results.
+
+The notebooks use two classes, namely the Model class, and the Simulation class, stored in separate Python scripts. Furthermore, some external functions are used and stored in the functions.py script.
+
+Additional notebooks can be created, and all the different analysis, e.g., in-degree, out-degree, overlap, can be run on a single model instance, without having to run the different scripts.
+
+Running the simulations as provided in this package might take up to several hours (tested on a MacBook Pro, 2020, M1, 8 cores, with 16GB of RAM).

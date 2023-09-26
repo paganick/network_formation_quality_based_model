@@ -1,0 +1,6 @@
+This folder contains the code used to process the Twitter data-sets, as described in the paper titled "A meritocratic network formation model for the rise of social media influencers".
+
+The folder contains one Jupyter Notebook, which can be run after installing, e.g., the Anaconda package (https://docs.anaconda.com/anaconda/install/index.html).
+The notebooks will run Python code. We recommend using Python version 3.7.
+Furthermore, the data-set should be first copied in this folder, or the path to them should be specified.
+To access the data-set, please follow the instructions reported in the manuscript.

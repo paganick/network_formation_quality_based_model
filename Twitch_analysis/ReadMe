@@ -1,0 +1,7 @@
+This folder contains the code used to process the Twitch data-sets, as described in the paper titled "A meritocratic network formation model for the rise of social media influencers".
+
+The folder contains one Jupyter Notebook, which can be run after installing, e.g., the Anaconda package (https://docs.anaconda.com/anaconda/install/index.html).
+The notebooks will run Python code. We recommend using Python version 3.7.
+Furthermore, the data-sets should be first copied in this folder, or the path to them should be specified.
+The three available data-sets can be found at:
+https://www.research-collection.ethz.ch/handle/20.500.11850/511065

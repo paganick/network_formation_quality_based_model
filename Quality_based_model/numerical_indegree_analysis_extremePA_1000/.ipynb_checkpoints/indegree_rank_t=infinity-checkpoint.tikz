@@ -1,0 +1,137 @@
+% This file was created by tikzplotlib v0.9.3.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+
+\begin{axis}[
+colorbar,
+colorbar style={ylabel={}},
+colormap/blackwhite,
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=white!80!black},
+log basis x={10},
+log basis y={10},
+point meta max=1,
+point meta min=0,
+tick align=outside,
+tick pos=left,
+title={['Theoretical indegree pdf, t=infinity']},
+x grid style={white!69.0196078431373!black},
+xlabel={rank},
+xmin=1, xmax=100,
+xmode=log,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={indegree},
+ymin=1, ymax=99,
+ymode=log,
+ytick style={color=black}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=1, xmax=100, ymin=1, ymax=99] {indegree_rank_t=infinity-013.png};
+\addplot [semithick, color0, opacity=0.7, mark=asterisk, mark size=3, mark options={solid}]
+table [row sep=\\] {%
+1 2.7976\\
+2 2.9162\\
+3 2.6981\\
+4 2.7381\\
+5 2.5068\\
+6 2.6254\\
+7 2.7388\\
+8 2.7154\\
+9 2.555\\
+10 2.507\\
+11 2.6766\\
+12 2.2893\\
+13 2.4231\\
+14 2.3152\\
+15 2.3147\\
+16 2.3471\\
+17 2.2717\\
+18 2.2071\\
+19 2.3433\\
+20 2.1797\\
+21 2.1484\\
+22 2.1404\\
+23 2.0562\\
+24 2.2343\\
+25 2.132\\
+26 1.8522\\
+27 2.1098\\
+28 2.0834\\
+29 1.9579\\
+30 1.9573\\
+31 1.7768\\
+32 2.0235\\
+33 1.8696\\
+34 1.8692\\
+35 1.942\\
+36 1.6788\\
+37 1.7237\\
+38 1.87\\
+39 1.8132\\
+40 1.7831\\
+41 1.8066\\
+42 1.6249\\
+43 1.741\\
+44 1.7961\\
+45 1.627\\
+46 1.7501\\
+47 1.7367\\
+48 1.4974\\
+49 1.5706\\
+50 1.6893\\
+51 1.5939\\
+52 1.5669\\
+53 1.484\\
+54 1.5051\\
+55 1.4336\\
+56 1.4565\\
+57 1.4893\\
+58 1.5394\\
+59 1.4199\\
+60 1.4925\\
+61 1.4655\\
+62 1.4019\\
+63 1.3702\\
+64 1.4561\\
+65 1.3437\\
+66 1.3636\\
+67 1.3429\\
+68 1.3917\\
+69 1.3039\\
+70 1.3523\\
+71 1.283\\
+72 1.2747\\
+73 1.2429\\
+74 1.2809\\
+75 1.2799\\
+76 1.243\\
+77 1.2716\\
+78 1.2367\\
+79 1.2376\\
+80 1.1942\\
+81 1.1705\\
+82 1.1764\\
+83 1.1658\\
+84 1.1403\\
+85 1.1344\\
+86 1.1409\\
+87 1.1129\\
+88 1.1231\\
+89 1.0721\\
+90 1.1158\\
+91 1.0895\\
+92 1.0544\\
+93 1.0699\\
+94 1.0471\\
+95 1.028\\
+96 1.0364\\
+97 1.0361\\
+98 1.0192\\
+99 0.9991\\
+100 1\\
+};
+\addlegendentry{Average value}
+\end{axis}
+
+\end{tikzpicture}
